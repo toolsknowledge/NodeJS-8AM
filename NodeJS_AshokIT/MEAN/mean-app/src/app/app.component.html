@@ -1,0 +1,17 @@
+<table border="1"   
+       cellpadding="10px"
+       cellspacing="10px"
+       align="center">
+    <tr>
+      <th>SNO</th>
+      <th>P_ID</th>
+      <th>P_NAME</th>
+      <th>P_COST</th>
+    </tr>
+    <tr *ngFor="let obj of products;let i = index">
+        <td>{{i+1}}</td>
+        <td>{{obj.p_id}}</td>
+        <td>{{obj.p_name}}</td>
+        <td>{{obj.p_cost}}</td>
+    </tr>
+</table>

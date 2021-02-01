@@ -1,0 +1,61 @@
+Deploying Node project to AWS Server
+====================================
+
+
+Step 1.
+    create gitignore file
+
+    > npx gitignore node
+
+        - ignores the "movement" of libraries(node_modules) to GitHub
+
+
+Step 2.
+    download the express module
+
+    > yarn add express --save
+
+
+Step 3.
+    develop rest services
+
+    server.js
+
+Step 4.
+    move server to GitHub
+
+Step 5.
+    link GitHub to AWS
+
+
+Elastic BeanStalk
+=================
+
+    - used to create the application in AWS Server
+
+
+CodePipeline
+============
+
+    - CI/CD Process.
+
+    - Continuous Integration and Continuous Deployment
+
+    - link the GitHub Repository to AWS Server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

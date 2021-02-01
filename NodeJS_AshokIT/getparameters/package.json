@@ -1,0 +1,8 @@
+{
+    "name": "Samba",
+    "version": "1.0.0",
+    "dependencies": {
+        "@types/express": "^4.17.9",
+        "express": "^4.17.1"
+    }
+}

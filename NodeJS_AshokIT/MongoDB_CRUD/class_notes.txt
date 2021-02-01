@@ -1,0 +1,360 @@
+					NodeJS
+					======
+
+	- NodeJS is the server side scripting language.
+
+	- NodeJS used to develop the servers.
+
+			Http Server
+
+			TCP Server
+
+	- we will build Node Application in two ways.
+
+			1) JavaScript
+
+			2) TypeSript
+
+	- JavaScript is not the Object Oriented.
+
+	- JavaScript is the Object Based Scripting Language.
+
+	- TypeScript is the Programming language, provided by microsoft and follows OOPS.
+
+	- NodeJS supports modules(libraries) (predefined libraries & user defined libraries).
+
+
+Modules
+-------
+1) http
+
+	- http module used to build the http servers.
+
+
+2) fs
+	
+	- fs stands for file system
+
+	- fs module used to interact with the flat files
+
+		(text files
+
+		xml files
+
+		json files,
+
+		---
+		---)
+
+3) express
+
+	- express module used to develop the rest services.
+
+		GET
+
+		POST
+
+		PUT
+
+		DELETE
+
+		----
+		----
+		----
+
+
+4) mongodb
+
+	- mongodb module used to interact with the mongodb database.
+
+
+5) mysql
+
+	- mysql module used to interact with the mysql database.
+
+
+6) mssql
+
+	- this module used to interact with the SQLServer.
+
+
+7) multer
+
+	- multer module used to upload and download images from the server.
+
+8) socket.io
+
+	- socket.io module used to implement the chat applications
+
+9) cors
+
+	- used to enable the ports communications.
+
+
+10) body-parser
+
+	- used to receive the data from client applications
+
+
+11) jwt
+
+	- used to implement the token based authentication.
+
+
+
+	-----------------
+	-----------------
+
+	we will download above modules by using   "npm" or "yarn" tool .
+
+	"npm"  stands for node packaging manager.
+
+	"npm" present in NodeJS.
+
+	"npm" tool is the Synchronous tool.
+
+	"yarn" tool given by the facebook.
+
+	"yarn" tool is the asynchronous tool.
+	 
+	
+Note : above modules downloads to "node_modules" folder in current path	
+
+
+Software Installations
+----------------------
+
+1) download and install NodeJS
+
+website : https://nodejs.org/en/download/
+
+file : node-v14.15.1-x64.msi
+
+	> node -v
+
+	> npm -v
+
+
+
+2) install yarn tool
+
+	> npm install -g yarn
+
+	=> npm stands for node packaging manager
+
+	=> -g stands for global installation
+
+
+3) download and install VisualStudioCode
+
+website : https://code.visualstudio.com/docs/?dv=win
+
+file    : VSCodeUserSetup-x64-1.51.1.exe
+
+Download the Modules
+--------------------
+
+NPM
+---
+> npm install express mongodb mongoose mysql --save
+
+yarn
+----
+
+> yarn add express mongodb mongoose mysql --save
+
+
+										***** MongoDB *****
+
+		- MongoDB is NoSQL database.
+
+		- MongoDB supports the JSON.
+
+		- MongoDB is the "ligth" weight database.
+
+		- MongoDB database follows the "mongodb" protocol.
+
+		- MongoDB by default running on port "27017"
+
+		- MongoDB database follows the "client server" architecture.
+
+
+Terminolgy
+----------
+			SQL								NoSQL
+
+
+Ex.
+	  Oracle, MySQL, SQLServer              MongoDB, CassandraDB
+
+
+	  database								database	
+
+	  tables								collections
+
+	  records								document
+
+	  column								field
+
+
+
+libraries
+---------
+
+1) mongodb
+		- this library helps to connect to mongodb database without schema(rules & regulations)
+
+
+2) mongoose
+
+	- this library helps to connect to mongodb database with schema
+
+
+MongoDB provided the "cloud environment" in the form of "MongoDB Atlas"
+-----------------------------------------------------------------------
+
+URL : https://www.mongodb.com/cloud/atlas
+
+
+Details of database
+-------------------
+
+database name : ashokit_nodejs
+collection name : products
+username : admin
+password  :  admin
+colletion url : mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/ashokit_nodejs?retryWrites=true&w=majority
+
+
+MongoDB CRUD Operations by using "mongodb" library
+
+
+1) create the directory   (folder)
+
+	Ex.
+		MongoDB_CRUD
+
+
+2) download the libraries by using "npm" or "yarn" tool
+
+		=> 1)mongodb  2)@types/mongodb
+
+				- used to connect to mongodb database
+		=> 1)express  2)@types/express
+
+				- used to develop the rest apis
+
+		=> 1)cors     2)@types/cors      
+
+				- enable the ports communication
+				- used to overcome the cors policy
+
+		=> body-parser @types/body-parser
+
+				- used to receive the data from "client" applications
+
+
+> yarn add mongodb @types/mongodb express @types/express cors @types/cors body-parser @types/body-parser --save
+
+
+********************************************************
+MongoDB_CRUD
+          fetch
+		     fetch.ts
+		  insert
+		      insert.ts
+		  update
+		      update.ts
+		  delete
+		      delete.ts
+		  server.ts
+********************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

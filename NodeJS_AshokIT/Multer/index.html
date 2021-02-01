@@ -1,0 +1,30 @@
+<style>
+    div{
+        background-color: gray;
+        padding: 1rem;
+    }
+</style>
+<div>
+    <form action="/singleFile" enctype="multipart/form-data" method="POST">
+        <input type="file" name="myFile">
+        <br><br>
+        <input type="submit">
+    </form>
+
+    <br><br>
+
+    <form action="/multipleFiles" enctype="multipart/form-data" method="POST">
+        <input type="file" name="myFiles" multiple>
+        <br><br>
+        <input type="submit">
+    </form>
+
+
+    <br><br>
+
+    <form action="/photo" enctype="multipart/form-data" method="POST">
+        <input type="file" name="myPhoto" accept="image/*">
+        <br><br>
+        <input type="submit">  
+    </form>
+</div>

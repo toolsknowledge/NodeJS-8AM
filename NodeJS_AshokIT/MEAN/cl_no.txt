@@ -1,0 +1,110 @@
+MEAN Development
+================
+
+        M - MongoDB
+
+        E - ExpressJS
+
+        A - Angular
+
+        N - NodeJS
+
+1) test the rest api by using Postman.
+
+    => http://localhost:8080/fetch    (GET)
+
+
+2) install angular 
+
+        > npm install -g @angular/cli
+
+        "-g" stands for global installation.
+
+        "cli" stands for command line interface.
+
+3) create the angular project
+
+    > ng new mean-app
+
+        - where "mean-app" is the angular application.
+
+
+4) create the directory
+
+        ************************************************
+        mean-app
+               src
+                 app
+                   mean.service.ts
+
+                   app.component.
+                   app.component.html
+
+                   app.module.ts
+        ************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

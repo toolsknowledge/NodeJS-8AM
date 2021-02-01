@@ -1,0 +1,61 @@
+1) download node modules
+
+    => express
+
+    => cors
+
+    => body-parser
+
+    => mongodb
+
+    => multer
+
+    > yarn add express cors body-parser mongodb multer --save
+
+
+2) create the index.html file
+
+    index.html
+
+    finally "/uploadImage" request is ready (POST)
+
+    with "myPhoto" name
+
+
+3) implement the node server
+
+    server.js
+
+
+4) create the database in mongodb 
+
+    URL : mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/multer?retryWrites=true&w=majority
+
+    collection name : images
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

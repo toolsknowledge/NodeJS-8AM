@@ -1,0 +1,63 @@
+Mongoose
+--------
+
+    - to connect to "mongodb database", we have two modules.
+
+        1) mongodb
+
+        2) mongoose
+
+    - mongodb module used to connect to database with out schema.
+
+    - mongoose module used to connect to database with schema (rules and regulations)
+
+
+Step 1.
+    create the collection
+
+    Details :
+
+        user : admin
+
+        password : admin
+
+        database_name : ashokit_nodejs
+
+        collection   :  employees  
+
+                        e_id   :   number
+
+                        e_name  :  string
+
+                        e_sal  : number
+
+        connection url : mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/ashokit_nodejs?retryWrites=true&w=majority
+
+
+Step 2.
+    download following node modules
+
+    => express         @types/express
+
+    => body-parser      @types/parser
+
+    => cors             @types/cors
+
+    => mongoose         @types/mongoose
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

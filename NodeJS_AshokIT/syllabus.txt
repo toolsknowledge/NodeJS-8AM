@@ -1,0 +1,149 @@
+1) Introduction to NodeJS
+
+2) Modules
+
+3) Http Server
+
+4) DataBases CRUD Operations
+
+        MySQL
+
+        MongoDB
+
+        SQLServer                       (pending)
+
+        Oracle                          (pending)
+
+5) File System
+
+6) Middlewares                          (next)
+
+       
+
+7) Images Uploading and Downloading  (Multer Module)    (pending)
+
+8) Chat Application   (socket.io Module)                (pending)
+
+9) Token Based Authentication  (JWT Simple Module)      (pending)
+
+10) Integration of 3rd party Rest API'S                 (spring boot)                
+
+11) Integration
+
+        - Heroku                                        (pending)
+
+        - AWS
+
+13) MEAN Stack Application
+
+        M - MongoDB
+
+        E - ExpressJS
+
+        A - Angular
+
+        N - NodeJS
+
+14) MERN Stack Application
+
+        M - MongoDB
+
+        E - ExpressJS
+
+        R - ReactJS
+
+        N - NodeJS
+
+15) ECommerce Application.
+
+16) Dynamo DB
+
+17) VueJS
+
+
+
+                                                ***** React Integration *****
+
+
+1) start the node server.
+
+        > node server
+
+
+2) open the MySQL Work Bench
+
+
+3) test the following rest apis by using Postman
+
+        => http://localhost:8080/fetch    (GET)
+
+        => http://localhost:8080/insert   (POST)
+
+        => http://localhost:8080/update   (PUT)
+
+        => http://localhost:8080/delete   (DELETE)
+
+
+4) install react software
+
+        > npm install -g create-react-app
+
+                - automatically react sotware will install
+
+
+5) create the react Application
+
+        > npx create-react-app mern-app
+
+
+6) switch to react Application
+
+        > cd mern-app
+
+7) dowmload axios Module
+
+        - axios module used to connect to server
+
+        > yarn add axios --save
+
+8) create the react application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

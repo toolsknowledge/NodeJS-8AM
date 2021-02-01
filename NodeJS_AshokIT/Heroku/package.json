@@ -1,0 +1,10 @@
+{
+    "name": "heroku",
+    "version": "1.0.0",
+    "dependencies": {
+        "express": "latest"
+    },
+    "engines": {
+        "node": "12.19.0"
+    }
+}
