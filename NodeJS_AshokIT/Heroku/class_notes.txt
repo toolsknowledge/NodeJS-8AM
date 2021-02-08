@@ -1,0 +1,62 @@
+                                            ***** Heroku Deployment *****
+
+1) download and install heroku cli
+
+    website : https://devcenter.heroku.com/articles/heroku-cli
+
+    file    : heroku-x64.exe
+
+2) create account with heroku
+
+    URL : www.heroku.com
+
+3) create gitignore file
+
+    > npx gitignore node
+
+4) create the package.json
+
+    > npm init
+
+    "scripts":{
+        "start":"node server.js"
+    }
+
+5) install express module
+
+    > npm install express --save 
+
+6) create node application
+
+    server.js
+
+
+7) push code to heroku
+
+        > git init
+
+        > git add .
+
+        > git commit -m "code"
+
+        > heroku login
+
+        > heroku create
+
+        > git push heroku master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
